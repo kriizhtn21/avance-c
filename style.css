@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+}
+
+.col-1,
+.col-2,
+.col-3{
+    flex: 1;
+    margin: 5px;
+}
+
+.col-2{
+    flex: 2;
+}
+
+.col-3{
+    flex: 3;
+}
+
+nav{
+    height: 250px;
+    background-color: rgb(36, 131, 131);
+    width: 100%;
+}
+
+.navegacion{
+    margin-top: 40px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.titulo{
+    
+    font-size: 40px;
+    color: white;
+    margin-left: 15px;
+    align-items: center;
+
+
+
+}
+
+.corazon{
+    width: 40;
+    height: 40;
+}
+
+.donate{
+    background-color: white;
+    color: purple;
+    padding: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 0px 1px black;
+}
+
+.links{
+    margin-top: 20px;
+    align-items: center;
+    width: 350px;
+    margin-left: 250px;
+
+}
+
+.links a{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.ancords{
+    color: black;
+}
+
+.parrafo{
+    margin-top: 20px;
+    margin-left: 160px;
+    color: white;
+}
+
+.parrafo-2{
+    margin-top: 20px;
+    color: white;
+}
+
+.formulario-1{
+    align-items: center;
+}
+
+.pata{
+    width: 30px;
+    margin-top: 20px;
+}
+
+.formulario{
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.ping{
+    margin-left: 70px;
+    width: 30px;
+    margin-top: 20px;
+}
+
+.btn{
+    height: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 200px;
+    margin-left: 170px;
+    color: white;
+    background-color: purple;
+    border: 1px solid black;
+    box-shadow: 2px 2px 0px 1px black;
+}
+
+.linea{
+    margin: 0 auto;
+    height: 2px;
+    width: 1920px;
+    background-color: black;
+}
+
+.gato{
+    width: 120px;
+    height: 120px;
+}
+
+.nombre{
+    font-size: 25px;
+    margin: 10px;
+    display: flex;
+    align-items: end;
+    margin-top: 30px;
+}
+
+.parrafo-3{
+    font-size: 20px;
+    display: flex;
+
+    align-items: end;            
+    margin: 10px;
+}
+
+.contador{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 450px;
+}
+
+.boton{
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: aqua;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 2px 2px 0px 1px black;
+}
+
+.fondo{
+    background-color: rgb(201, 201, 201);
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.ancho{
+    width: 870px;
+}
